@@ -100,11 +100,15 @@ setInterval(updateTime, 1000);
 
 ---
 ## 🚀 Live Demo & Repository
+
+🌐 Live URL: 
 ```
-🌐 Live URL: https://kontractour.github.io/profile-card/
+https://kontractour.github.io/profile-card/
 ```
+
+💾 GitHub Repo: 
 ```
-💾 GitHub Repo: https://github.com/Kontractour/profile-card
+https://github.com/Kontractour/profile-card
 ```
 ---
 

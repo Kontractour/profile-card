@@ -1,6 +1,4 @@
-/* =========================
-   GLOBAL STYLES
-========================= */
+/* Global Rest */
 * {
   margin: 0;
   padding: 0;
@@ -22,9 +20,7 @@ main {
   padding: 20px;
 }
 
-/* =========================
-   PROFILE CARD
-========================= */
+/* Profile Card */
 .profile-card {
   background: #ffffff;
   border-radius: 20px;
@@ -44,9 +40,7 @@ main {
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
 }
 
-/* =========================
-   AVATAR
-========================= */
+/* User Avatar*/
 .avatar-container img {
   width: 130px;
   height: 130px;
@@ -56,9 +50,7 @@ main {
   margin-bottom: 15px;
 }
 
-/* =========================
-   DETAILS
-========================= */
+/* Card Details*/
 .details {
   text-align: center;
 }
@@ -82,11 +74,8 @@ main {
   font-size: 0.9rem;
 }
 
-/* =========================
-   SOCIAL LINKS
-========================= */
 
-
+/* Social Links*/
 
 .social-links ul {
   list-style: none;
@@ -118,9 +107,8 @@ main {
   transform-origin: left;
 }
 
-/* =========================
-   SECTIONS
-========================= */
+
+/* Sections */
 section {
   margin-top: 15px;
   text-align: left;
@@ -143,9 +131,7 @@ section ul {
 
 
 
-/* =========================
-   RESPONSIVENESS
-========================= */
+/* Responsive adjustments for larger screens */
 @media (min-width: 700px) {
   .profile-card {
     flex-direction: row;

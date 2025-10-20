@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | HNG Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+<body class="contact-page">
+  <main class="contact-container">
+    <section class="contact-section">
+      <h2>Contact Me</h2>
+
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            data-testid="test-contact-name"
+            aria-describedby="error-name"
+            required
+          >
+          <small id="error-name" data-testid="test-contact-error-name" aria-live="polite"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            data-testid="test-contact-email"
+            aria-describedby="error-email"
+            required
+          >
+          <small id="error-email" data-testid="test-contact-error-email" aria-live="polite"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input 
+            type="text" 
+            id="subject" 
+            name="subject" 
+            data-testid="test-contact-subject"
+            aria-describedby="error-subject"
+            required
+          >
+          <small id="error-subject" data-testid="test-contact-error-subject" aria-live="polite"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea 
+            name="message" 
+            id="message" 
+            rows="4" 
+            data-testid="test-contact-message"
+            aria-describedby="error-message char-count"
+            required
+          ></textarea>
+          <div class="field-info">
+            <small id="error-message" data-testid="test-contact-error-message" aria-live="polite"></small>
+            <small id="char-count" class="char-counter">0 / 10 characters</small>
+          </div>
+        </div>
+
+        <button type="submit" data-testid="test-contact-submit">Send Message</button>
+        <p data-testid="test-contact-success" aria-live="polite" class="success"></p>
+      </form>
+
+      <div class="nav-buttons">
+        <a href="index.html" class="btn-nav" data-testid="test-nav-home">Home</a>
+        <a href="about.html" class="btn-nav" data-testid="test-nav-about">About</a>
+      </div>
+
+      <nav class="social-links" data-testid="test-user-social-links">
+        <ul>
+          <li>
+            <a href="https://x.com/Kontractour" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">
+              <i class="fab fa-x-twitter"></i> <span>Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Kontractour" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">
+              <i class="fab fa-github"></i> <span>GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/godswill-okereke-3ba33b37a" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">
+              <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </main>
+
+  <script src="contact.js"></script>
+</body>
+</html>

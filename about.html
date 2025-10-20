@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me | HNG Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+<body>
+  <main data-testid="test-about-page">
+    <section class="about-section">
+      <figure class="avatar-container">
+        <img 
+          src="assets/user-picture.PNG" 
+          alt="Profile photo of Godswill Okereke" 
+          data-testid="test-user-avatar"
+        />
+      </figure>
+
+      <h2>About Me</h2>
+
+      <!-- Bio -->
+      <section class="about-item" data-testid="test-about-bio">
+        <h3>Bio</h3>
+        <p>
+          I'm <strong>Godswill Okereke</strong>, a <strong>Content Writer</strong> and <strong>Frontend Developer</strong> passionate about creating meaningful digital experiences. I enjoy writing clear, impactful content and coding clean, responsive designs that bring ideas to life.
+        </p>
+      </section>
+
+      <!-- Goals -->
+      <section class="about-item" data-testid="test-about-goals">
+        <h3>Goals in This Program</h3>
+        <p>
+          My goal in the HNG internship is to grow from a beginner to a confident frontend developer. I want to improve my technical skills, learn how to collaborate effectively in a team, and build real-world projects that reflect my growth.
+        </p>
+      </section>
+
+      <!-- Areas of low confidence -->
+      <section class="about-item" data-testid="test-about-confidence">
+        <h3>Areas of Low Confidence</h3>
+        <p>
+          I'm still building confidence in JavaScript and React. Sometimes, debugging or implementing complex logic takes me extra time — but I'm committed to learning and improving daily.
+        </p>
+      </section>
+
+      <!-- Note to future self -->
+      <section class="about-item" data-testid="test-about-future-note">
+        <h3>Note to My Future Self</h3>
+        <p>
+          Dear future me, keep believing in your journey. Every line of code you write, every challenge you face, and every late night spent learning is worth it. Keep building, keep improving, and never forget why you started.
+        </p>
+      </section>
+
+      <!-- Extra thoughts -->
+      <section class="about-item" data-testid="test-about-extra">
+        <h3>Extra Thoughts</h3>
+        <p>
+          This internship has pushed me out of my comfort zone, and I love that. I've learned to be patient with the process, trust my growth, and stay consistent — because progress is built one small win at a time.
+        </p>
+      </section>
+
+      <!-- Navigation buttons -->
+      <div class="nav-buttons">
+        <a href="index.html" class="btn-nav" data-testid="test-nav-home">Home</a>
+        <a href="contact.html" class="btn-nav" data-testid="test-nav-contact">Contact</a>
+      </div>
+
+      <!-- Social links -->
+      <nav class="social-links" data-testid="test-user-social-links">
+        <ul>
+          <li>
+            <a href="https://x.com/Kontractour" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">
+              <i class="fab fa-x-twitter"></i> <span>Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Kontractour" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">
+              <i class="fab fa-github"></i> <span>GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/godswill-okereke-3ba33b37a" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">
+              <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </main>
+</body>
+</html>
